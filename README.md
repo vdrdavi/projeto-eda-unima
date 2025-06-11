@@ -1,4 +1,4 @@
-### 🔗 [Jogue Portal no Itch.io](https://seconds66.itch.io/portal)
+### 🔗 [Jogue Portal Land no Itch.io](https://seconds66.itch.io/portal)
 
 # Documento de Requisitos de Produto (PRD)
 
