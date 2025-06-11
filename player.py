@@ -18,11 +18,8 @@ class Player:
         if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             dx += 1
 
-        # Normalização correta do vetor de movimento
         if dx != 0 or dy != 0:
-            # Calcula a magnitude do vetor
             magnitude = math.sqrt(dx * dx + dy * dy)
-            # Normaliza o vetor dividindo pela magnitude
             dx = dx / magnitude
             dy = dy / magnitude
 
@@ -31,3 +28,4 @@ class Player:
 
     def draw(self, surface):
         pygame.draw.rect(surface, self.color, self.rect)
+
